@@ -70,7 +70,7 @@ clearfix::after{
 /* header */
 
 header{
-    background-color:#3161e0;
+    background-color:#255ee9;
     color:white;
 }
 
@@ -81,6 +81,7 @@ header{
 .navbar{
     height:100px;
     line-height: 100px;
+    padding:10px;
 }
 
 .navbar .textredirect a{
