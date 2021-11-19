@@ -40,7 +40,17 @@ clearfix::after{
     padding:10px 15px;
     margin:0 20px;
     text-decoration: none;
-    border-radius: 20px;
+    border-radius: 50px;
+}
+
+.button.button-dark{
+    background-color: black;
+    color: white;
+}
+
+.button.button-dark:hover{
+    background-color: black;
+    color:royalblue;
 }
 
 .button.button-white{
@@ -53,6 +63,10 @@ clearfix::after{
     color:royalblue;
 }
 
+
+.button.big{
+    padding:20px 25px;
+}
 /* header */
 
 header{
@@ -90,7 +104,7 @@ text-decoration: none;
 /* content */
 
 .jumbotron {
-    height:500px;
+    height: 500px;
     background-image: url(../img/jumbo.png);
     background-size: cover;
 }
@@ -103,10 +117,11 @@ text-decoration: none;
 }
 
 .jumbotron h1{
-    font-size: 40px;
+    font-size: 60px;
     margin-bottom:20px
 }
 
 .jumbotron p{
     font-size: 20px;
+    margin-bottom:70px
 }
