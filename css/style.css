@@ -9,6 +9,12 @@ body {
     font-family: sans-serif;
 }
 
+clearfix::after{
+    display:table;
+    content:"";
+    clear:both;
+}
+
 .container{
     max-width: 1200px;
     margin: 0 auto; 
@@ -31,19 +37,36 @@ body {
 }
 
 .button{
-    border-radius:10px;
+    padding:10px 15px;
+    margin:0 20px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.button.button-white{
+    background-color: white;
+    color: black;
+}
+
+.button.button-white:hover{
+    background-color: white;
+    color:royalblue;
 }
 
 /* header */
 
 header{
-    background-color: slateblue;
+    background-color:royalblue;
     color:white;
+}
+
+#logo{
+    vertical-align: middle;
 }
 
 .navbar{
     height:100px;
-    line-height:80px;
+    line-height: 100px;
 }
 
 .navbar .textredirect a{
@@ -57,7 +80,7 @@ text-decoration: none;
 
 .navbar .textredirect, .navbar .textredirect li {
     display: inline-block;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .navbar .textredirect li {
